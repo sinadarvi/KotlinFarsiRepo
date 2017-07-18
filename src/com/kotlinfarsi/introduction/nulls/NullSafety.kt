@@ -6,9 +6,9 @@ package com.kotlinfarsi.introduction.nulls
 
 fun main(args: Array<String>) {
     val message: String = "A String"
-
-    val nullMessage :String? = null
     val inferredNullMessage = null
 
-    println(nullMessage!!.length)
+    var nullMessage :String? = null
+    nullMessage = "Some Value"
+    println(nullMessage.length)
 }
