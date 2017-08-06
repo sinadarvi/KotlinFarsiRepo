@@ -4,9 +4,18 @@ package com.kotlinfarsi.introduction.classes
  * Created by Sina on 7/16/2017
  */
 data class CustomerKotlin(var id: Int, var name: String, var email: String){
+    @JvmField var someProperty = "Value"
     override fun toString(): String {
         return "{\"id\": \"$id\", \"name\": \"$name\"}"
     }
+
+    @JvmOverloads fun changeStatus(status: String = "OK"){
+
+    }
+}
+
+fun CustomerKotlin.extention(){
+
 }
 
 fun main(args: Array<String>) {

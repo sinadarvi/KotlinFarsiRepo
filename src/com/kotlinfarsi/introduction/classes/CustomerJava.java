@@ -1,5 +1,7 @@
 package com.kotlinfarsi.introduction.classes;
 
+import org.jetbrains.annotations.NotNull;
+
 /**
  * Created by Sina on 7/16/2017
  */
@@ -30,6 +32,14 @@ public class CustomerJava {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public @NotNull String neverNull(){
+        return "A String";
+    }
+
+    public String someTimesNull(){
+        return "A String";
     }
 
     @Override
