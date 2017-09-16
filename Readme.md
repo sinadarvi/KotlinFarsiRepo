@@ -1,2 +1,2 @@
 # KotlinFarsiRepo
-Repository for KoltlinFarsi Website
+Repository for KotlinFarsi Website

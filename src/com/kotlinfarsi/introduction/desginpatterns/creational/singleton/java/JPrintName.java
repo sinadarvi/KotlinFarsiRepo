@@ -1,4 +1,4 @@
-package com.kotlinfarsi.introduction.desginpatterns.singleton.java;
+package com.kotlinfarsi.introduction.desginpatterns.creational.singleton.java;
 
 public class JPrintName {
 
@@ -17,6 +17,6 @@ public class JPrintName {
     }
 
     public void printName(){
-        System.out.println("Name is :" + name);
+        System.out.println("Name is : " + name);
     }
 }
