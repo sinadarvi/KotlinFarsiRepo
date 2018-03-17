@@ -16,7 +16,7 @@ fun route(path: String, vararg actions: (String, String) -> String) {
 }
 
 fun unaryOperation(x: Int, op: (Int) -> Int) {
-
+    op(x)
 }
 
 fun sum(x: Int, y: Int) = x + y
